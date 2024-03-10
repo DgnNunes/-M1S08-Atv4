@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remover Elemento Filho</title>
+</head>
+<body>
+
+    <div id="pai">
+        <h1>elemento pai</h1>
+        <p id="filho">Este é um elemento filho que será removido.</p>
+    </div>
+
+    <script> 
+        let pai = document.getElementById("pai");
+      
+        console.log(pai);
+       
+        let filho = document.getElementById ("filho")  
+      
+        console.log(filho);
+
+        pai.removeChild(filho);</script>
+      
+
+</body>
+</html>
